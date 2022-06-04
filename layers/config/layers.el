@@ -33,9 +33,8 @@
 
    ;; Languages
    lsp
-   clojure
    emacs-lisp
-   haskell
+   elixir
    hy  ; I wrote this mode/layer
 
    (c-c++ :variables
