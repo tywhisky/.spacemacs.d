@@ -26,7 +26,6 @@
 
 (defun config/pre-init-aggressive-indent ()
   (add-hook 'emacs-lisp-mode-hook #'aggressive-indent-mode)
-  (add-hook 'clojure-mode-hook    #'aggressive-indent-mode)
   (add-hook 'hy-mode-hook         #'aggressive-indent-mode))
 
 ;;;; Avy
