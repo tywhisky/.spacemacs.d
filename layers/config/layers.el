@@ -37,6 +37,9 @@
    elixir
    hy  ; I wrote this mode/layer
 
+   (elixir :variables
+           elixir-backend 'alchemist)
+
    (c-c++ :variables
           ;; c-c++-backend 'lsp-ccls
           c-c++-backend 'lsp-cquery
@@ -53,5 +56,3 @@
            python-test-runner 'pytest
            python-spacemacs-indent-guess nil)
    ))
-
-   (elixir :variables elixir-backend 'alchemist)
