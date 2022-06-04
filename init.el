@@ -19,6 +19,8 @@
 
 ;;;; Constants
 
+(setq package-check-signature nil)
+
 (defconst eric?    (string= "Eric Kaschalk" (user-full-name)) "Am I me?")
 (defconst linux?   (eq system-type 'gnu/linux) "Are we on a linux machine?")
 (defconst mac?     (eq system-type 'darwin)    "Are we on a macOS machine?")

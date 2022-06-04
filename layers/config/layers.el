@@ -11,7 +11,8 @@
    (ivy :variables
         ivy-extra-directories nil)
    (org :variables
-        org-want-todo-bindings t)
+        org-want-todo-bindings t
+        org-enable-hugo-support t)
    (shell :variables
           shell-default-shell 'eshell)
    syntax-checking
