@@ -144,6 +144,7 @@
     :config
     (progn
       (pretty-code-add-hook 'emacs-lisp-mode-hook '((:def "defun")))
+      (pretty-code-add-hook 'elixir-mode-hook '((:def "def")))
       (pretty-code-add-hook 'hy-mode-hook         '((:def "defn")
                                                     (:lambda "fn")))
       (pretty-code-add-hook 'python-mode-hook     '((:def "def")
@@ -254,5 +255,6 @@
     :hook ((outline-mode       . pretty-outlines-set-display-table)
            (outline-minor-mode . pretty-outlines-set-display-table)
            (emacs-lisp-mode . pretty-outlines-add-bullets)
+           (elixir-lisp-mode . pretty-outlines-add-bullets)
            (hy-mode         . pretty-outlines-add-bullets)
            (python-mode     . pretty-outlines-add-bullets))))

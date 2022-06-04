@@ -26,6 +26,7 @@
 
 (defun config/pre-init-aggressive-indent ()
   (add-hook 'emacs-lisp-mode-hook #'aggressive-indent-mode)
+  (add-hook 'elixir-mode-hook #'aggressive-indent-mode)
   (add-hook 'hy-mode-hook         #'aggressive-indent-mode))
 
 ;;;; Avy
@@ -116,7 +117,7 @@
           ("h" "#+HTML: ")
           ("q" "#+BEGIN_QUOTE\n\n#+END_QUOTE")
           ("s" "#+BEGIN_SRC ?\n\n#+END_SRC")
-          ("se" "#+BEGIN_SRC emacs-lisp\n\n#+END_SRC")
+          ("se" "#+BEGIN_SRC elixir\n\n#+END_SRC")
           ("sp" "#+BEGIN_SRC python\n\n#+END_SRC")))
 
   (add-hook 'org-mode-hook (lambda () (auto-fill-mode 1)))

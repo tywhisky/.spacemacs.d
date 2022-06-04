@@ -53,3 +53,5 @@
            python-test-runner 'pytest
            python-spacemacs-indent-guess nil)
    ))
+
+   (elixir :variables elixir-backend 'alchemist)
